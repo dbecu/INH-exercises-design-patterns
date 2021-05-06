@@ -1,0 +1,18 @@
+﻿<Window x:Class="Assignment7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Assignment7"
+        mc:Ignorable="d"
+        Title="Arrays Assignment 7" Height="215.535" Width="254.591">
+    <Grid Margin="0,0,2,1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="Label" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,20,0,0" Height="116" Width="218"/>
+        <Button Content="Throw" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="83,152,0,0" Click="Button_Click" Height="20"/>
+
+    </Grid>
+</Window>

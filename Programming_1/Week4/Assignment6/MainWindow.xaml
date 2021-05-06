@@ -1,0 +1,17 @@
+﻿<Window x:Class="Assignment6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Assignment6"
+        mc:Ignorable="d"
+        Title="Interation Assignment 6" Height="168.4" Width="275.2">
+    <Grid>
+        <Label Content="Start amount" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,25,0,0"/>
+        <TextBox x:Name="StartAmount" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="130,25,0,0"/>
+        <Button Content="Calculate final capital" HorizontalAlignment="Left" VerticalAlignment="Top" Width="240" Margin="10,56,0,0" Height="23" Click="Button_Click"/>
+        <Label Content="Final capital" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,101,0,0"/>
+        <Label x:Name="FinalCapital" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="130,101,0,0" Width="111"/>
+
+    </Grid>
+</Window>
